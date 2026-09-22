@@ -1,24 +1,11 @@
-sample_list = [2, 3, 4]
-is_3_exists = 3 in sample_list
-print(is_3_exists)
-# output -> true
+# deklarasi variabel num_1 
+num_1 = 12 
+# deklarasi variabel num_2 
+num_2 = 24 
+# nilai baru ditugaskan ke variabel num_2 
+num_2 = 12 
+# deklarasi variabel num_3 dengan isi nilai hasil operasi aritmatika `num_1 + num_2`
+num_3 = num_1 + num_2
 
-sample_tuple = ("hello", "python")
-is_hello_exists = "hello" in sample_tuple
-print(is_hello_exists)
-# output -> true
-
-sample_dict = {"nama": "noval", "age": 12}
-is_key_nama_exists = "nama" in sample_dict
-print(is_key_nama_exists)
-# output -> true
-
-sample_set = {"sesuk", "preiiii" }
-is_prei = "preiiii" in sample_set
-print(is_prei)
-# output -> true
-
-text = 'Hello world'
-is_substring_exists = 'orl' in text
-print(is_substring_exists)
-# output -> true
+# menampilkan hasil
+print(num_3)
