@@ -1,0 +1,1 @@
+hobbits = {'frodo', 'sam', 'merry', 'pippin'}

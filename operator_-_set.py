@@ -1,0 +1,1 @@
+a = set('abracadabra') # {'c', 'a', 'r', 'd', 'b'}
