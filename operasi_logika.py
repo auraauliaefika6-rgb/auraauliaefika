@@ -1,14 +1,12 @@
-grade = int(input('Enter your current grade: '))
-prev_grade = int(input('Enter your previous grade:  '))
+message1 = "hello world" 
+message2 = message1 
+message3 = "hello world" 
 
-if grade >= 90 and prev_grade >= 65:
-    print("awesome")
-if grade >= 90 and prev_grade < 65:
-    print("awesome. you definitely working hard, right?")
-elif grade >= 65:
-    print("passed the exam")
-else: 
-    print("below the passing grade")
+print(f"message1 ({id(message1)}) == message2 ({id(message2)})") (message1 == message2)
+      # output ➜ message1 (2131034204400) == message2 (2131034204400) ➡ True
+      
+print(f"message1 ({id(message1)}) == message3 ({id(message3)})") (message1 == message3) 
+      # output ➜ message1 (2131034204400) == message3 (2131034205616) ➡ True 
 
-if (grade >= 65 and not prev_grade >= 65) or (not grade >= 65 and prev_grade >= 65):
-    print("at least you passed one exam. good job!")
+print(f"message2 ({id(message2)}) == message3 ({id(message3)})") (message2 == message3) 
+      # output ➜ message2 (2131034204400) == message3 (2131034205616) ➡ True
